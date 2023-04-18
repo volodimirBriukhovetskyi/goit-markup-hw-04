@@ -62,7 +62,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* header */
+/* ........................header......................... */
 .header {
   border-bottom: 1px solid var(--border-color);
   /* . */
@@ -119,9 +119,8 @@ body {
   color: var(--bgs-master-color);
 }
 /* nav */
-/* .main-menu {
-  display: flex;
-} */
+/* ........................nav......................... */
+
 .nav {
   display: flex;
   align-items: center;
@@ -152,7 +151,7 @@ body {
   color: var(--portfolio-btn-background-accent);
   border-bottom: 1px solid var(--portfolio-btn-background-accent);
 }
-/* contacts */
+/* ........................contacts......................... */
 .nav-auth-list {
   margin-left: 332px;
   display: flex;
@@ -182,18 +181,10 @@ body {
   color: var(--portfolio-btn-background-accent);
   /* border-bottom: 1px solid var(--portfolio-btn-background-accent); */
 }
-/* .nav .active {
-  color: var(--portfolio-btn-background-accent);
-} */
-/* main */
-/* .main .section:first-child {
-  background-color: var(--secondary-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
 
-  margin-bottom: 120px;
-} */
-/* section hero 1*/
+/*........................... main .......................*/
+
+/* ........................section hero 1......................... */
 .section-hero {
   background-color: var(--secondary-color);
   padding-top: 188px;
@@ -227,7 +218,7 @@ body {
   /* or 107% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .hero-btn {
   margin-left: auto;
@@ -238,7 +229,7 @@ body {
 
   display: block;
   flex-direction: row;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 
   color: var(--main-white);
   background-color: var(--accent-color);
@@ -267,8 +258,7 @@ body {
 .hero-btn:active {
   background-color: var(--portfolio-btn-background-accent);
 }
-
-/* section description 2*/
+/* ........................section description 2......................... */
 
 .section-desc {
   padding: 120px 0;
@@ -294,9 +284,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* .desc-icon {
-  padding: 24px 100px;
-} */
 
 .desc-list .title {
   margin-bottom: 8px;
@@ -314,10 +301,10 @@ body {
   line-height: 1.5;
   /* or 150% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
+/* ........................section info 3......................... */
 
-/* section info 3*/
 .section-info {
   padding-bottom: 120px;
 }
@@ -331,7 +318,7 @@ body {
   /* identical to box height, or 111% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
 }
 .info-list {
@@ -348,14 +335,8 @@ body {
 
   border: 1px solid var(--border-color);
 }
+/* ........................section Team 4......................... */
 
-/* section Team 4*/
-/* .main .section:last-child {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: var(--bgs-master-color);
-  margin-bottom: 0;
-} */
 .section-team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -377,7 +358,7 @@ body {
   /* identical to box height, or 111% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
 }
 
@@ -420,7 +401,7 @@ body {
   /* identical to box height, or 120% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .team-list .text {
   font-size: 16px;
@@ -428,7 +409,7 @@ body {
   /* identical to box height, or 150% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   margin-bottom: 8px;
 }
 .team-icon-list,
@@ -467,7 +448,9 @@ body {
 .team-icon-link:focus .team-icon {
   fill: var(--bgs-master-color);
 }
-/* customers */
+
+/* ........................customers 5......................... */
+
 .customers {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -480,7 +463,7 @@ body {
   /* identical to box height, or 111% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
 
   /* NAVY BLUE */
@@ -527,8 +510,8 @@ body {
 .customers-link:focus .customers-icon {
   color: var(--portfolio-btn-background-accent);
 } */
+/* ........................footer......................... */
 
-/* footer */
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -542,7 +525,7 @@ body {
   line-height: 1.5;
   /* or 150% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 
 .social-media {
@@ -556,7 +539,7 @@ body {
   line-height: 1.5;
   /* identical to box height, or 150% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 
   /* WHITE */
 
@@ -581,8 +564,8 @@ body {
   gap: 120px;
   align-items: baseline;
 }
+/* ........................portfolio......................... */
 
-/* portfolio */
 .btn-list {
   display: flex;
   justify-content: center;
@@ -653,9 +636,6 @@ body {
 }
 .project-list .link:hover,
 .project-list .link:focus {
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px; */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -679,7 +659,7 @@ body {
   line-height: 1.2;
   /* identical to box height, or 120% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .project-list .text {
   /* margin-left: 16px; */
@@ -687,6 +667,6 @@ body {
   line-height: 1.5;
   /* identical to box height, or 150% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--primary-color);
 }
